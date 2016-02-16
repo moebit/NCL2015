@@ -3,7 +3,7 @@ import java.io.*;
 import java.net.*;
 import java.nio.ByteBuffer;
 
-public class UDPServerNCL {
+public class UDPClientNCL {
     public DatagramSocket clientSocket;
     public InetAddress IPAddress;
     public UDPServerNCL (DatagramSocket clientSocket,InetAddress IPAddress) {
